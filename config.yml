@@ -1,8 +1,6 @@
 defaultSettings:
-    center: true
     # The greater the airspeed, the greater the "Spring Force" to simulate air pushing the rudders into their default position
     airspeed_center: true
-
     #At this speed the spring Force will be at 100% (will stay at 100% if speed is greater than the max)
     airspeed_center_maxspeed:  100  #kts
 
