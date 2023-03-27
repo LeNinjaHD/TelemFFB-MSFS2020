@@ -1,0 +1,20 @@
+defaultSettings:
+    center: true
+    # The greater the airspeed, the greater the "Spring Force" to simulate air pushing the rudders into their default position
+    airspeed_center: true
+
+    #At this speed the spring Force will be at 100% (will stay at 100% if speed is greater than the max)
+    airspeed_center_maxspeed:  100  #kts
+
+    stall_shake: true
+    #stall_speed: 40 #kts
+    stall_aoa: 10.5 #degress
+    stall_intensity: 0 #TODO
+
+    overspeed_shake: true
+    overspeed: 180 #kts
+    overspeed_intensity: 0 #TODO
+
+    engine_shake: true
+    #At this RPM the Shake will be the most intense
+    max_rpm: 6500 #rpm
